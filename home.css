@@ -27,7 +27,6 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     height: 1274px;
-    width: 1440px;
     border-radius: 0px;
     background-position: fixed;
 }
@@ -726,10 +725,6 @@ span{
 
 /* CELLPHONE */
 @media (max-width: 360px){
-    .body-page
-    {
-        width: 360px;
-    }
     .sub-menu-1{
         display: flex;
     }
