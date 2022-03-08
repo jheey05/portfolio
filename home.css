@@ -67,8 +67,6 @@ header .logo
     color: #fff;
     text-decoration: none;
     font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     transition:0.4s;
 }
 .menu-bar{
@@ -585,6 +583,7 @@ span{
 	color: var(--color-button-active);
 }
 
+
 /* Footer */
 .wrapper-foot{
     position: absolute;
@@ -755,9 +754,17 @@ span{
     .wrapper-foot{
         left: 220px;
     }
+}
 
-
-
+/* CELLPHONE */
+@media (max-width: 360px){
+    .body-page
+{
+    width: 360px;
+}
+    header .logo{
+        left: 150px;
+    }
 }
 
 
