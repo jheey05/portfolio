@@ -22,6 +22,103 @@
              <img class="img-me" src="photos/me.png" alt="Jelly Ann" 
             data-aos="fade-left" data-aos-duration="2000">
 
+            <!-- Introduction -->
+            <div class="wrapper-info" data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500" >
+                <h2 id>Hi There,</h2>
+                <p>Jelly Ann Villanueva here! A 20-year-old</p>
+                <p>Web Developer & Programmer based in</p>
+                <p>Caloocan City, Philippines</p>
+            </div>
+
+            <!-- Button in Introduction -->
+            <div class="container" data-aos="fade-up"
+                data-aos-duration="3000">
+                <a href="about.html">
+                    <span>Know More</span>
+                </a>
+                <a href="#project">
+                    <span>Recent Projects</span>
+                </a>
+            </div>
+
+            <!-- 2nd Page in Home-->
+            <label for="hide">
+                <h1 id="project">Recent Projects</h1>
+            </label>
+            <label for="project" data-aos="fade-up"
+            data-aos-anchor-placement="top-center">
+                <h1>Recent Projects</h1>
+            </label>
+            <div class="wrapper" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="400">
+                <div class="button-box">
+                    <div id="btn"></div>
+                        <button type="button" class="toggle-btn1" onclick="Login()">One</button>
+                        <button type="button" class="toggle-btn2" onclick="Register()">Two</button>
+                    </div>
+
+                <!-- Log-in The Box for Recent Projects -->
+                <form id="Login" class="input-group">
+                    <div class="img2"><img src="photos/project1.png"></div>
+                        <h1>Title Here</h1>
+                        <div class="button">
+                            <a href="#">
+                                Watch Video 
+                                <span class="shift"></span>
+                            </a>
+                            <div class="mask"></div>
+                            
+                        </div>
+                        <div class="button1">
+                            <a href="#">
+                                View Source Code 
+                                <span class="shift"></span>
+                            </a>
+                            <div class="mask"></div>
+                        </div>
+                </form>
+
+                <!-- Register The Box for Recent Projects -->
+                <form id="Register" class="input-group">
+                    <div class="img1"><img src="photos/project2.png"></div> 
+                        <h2>Title Here</h2>
+                        <div class="button2">
+                            <a href="#">
+                                Watch Video 2
+                                <span class="shift"></span>
+                            </a>
+                            <div class="mask"></div>
+                        </div>
+                        <div class="button3">
+                            <a href="#">
+                                View Source Code 2
+                                <span class="shift"></span>
+                            </a>
+                            <div class="mask"></div>
+                            </script>
+                        </div>
+                </form>
+
+                <!-- Script for the next button in recent projects box -->
+                <script>
+                    var x = document.getElementById("Login");
+                    var y = document.getElementById("Register");
+                    var z = document.getElementById("btn");
+
+                function Register(){
+                    x.style.left = "-1000px";
+                    y.style.left = "50px";
+                    z.style.left = "110px";
+                }
+                function Login(){
+                    x.style.left = "50px";
+                    y.style.left = "1000px";
+                    z.style.left = "0px";
+                }
+            </script>
+            </div>
+
        
              <!-- Header -->
              <header>
